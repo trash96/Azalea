@@ -1,0 +1,17 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "test:azalea_1",
+            "category": "equipment"
+		},
+		"components": {
+            "minecraft:foil": true,
+			"minecraft:display_name": {
+				"value": "§c§lTest"
+			}
+		},
+		"events": {}
+	}
+}

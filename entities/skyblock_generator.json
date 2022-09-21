@@ -1,0 +1,22 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+        "description": { "identifier": "azalea:skyblock_generator", "is_spawnable": true, "is_summonable": true, "is_experimental": false},
+        "component_groups": {},
+        "components": {
+            "minecraft:nameable": { "allow_name_tag_renaming": true, "always_show": false },
+            "minecraft:type_family": { "family": ["trashskyblock"] },
+            "minecraft:health": { "value": 50, "max": 50 },
+            "minecraft:collision_box": { "width": 0, "height": 0 },
+            "minecraft:push_through": { "value": 1 },
+            "minecraft:scale": { "value": 1 },
+            "minecraft:knockback_resistance": { "value": 100, "max": 100 },
+            "minecraft:physics": { "has_gravity": false, "has_collision": true },
+            "minecraft:pushable": { "is_pushable": false, "is_pushable_by_piston": false },
+            "minecraft:damage_sensor": { "triggers": [{ "cause": "all", "deals_damage": false }] },
+            "minecraft:navigation.walk": { "can_sink": false },
+            "minecraft:tick_world": { "never_despawn": true }
+        },
+        "events": {}
+    }
+}

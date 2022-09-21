@@ -1,0 +1,21 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "azalea:warps_menu",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "ender_pearl",
+				"frame": "(0.0)"
+			},
+			"minecraft:display_name": {
+				"value": "§dWarps Menu"
+			},
+			"minecraft:foil": true
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,1 @@
+function azalea/events/tick/checkgamemodes

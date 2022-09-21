@@ -1,0 +1,20 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "pain:aaaaaaaaaaaaaaaaaaaa",
+            "category": "equipment"
+		},
+		"components": {
+            "minecraft:foil": true,
+			"minecraft:icon": {
+				"texture": "compass_item",
+				"frame": 0
+			},
+			"minecraft:display_name": {
+				"value": "§6Server GUI"
+			}
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,1 @@
+tellraw @s {"rawtext":[{"text":"Imagine using functions, gametest is 10000x better. Made by TRAHS"}]}

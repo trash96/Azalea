@@ -1,0 +1,24 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "azalea:notebook",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "writable_book",
+				"frame": 0
+			},
+			"minecraft:display_name": {
+				"value": "Notebook"
+			},
+			"minecraft:foil": true,
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:damage": 0,
+			"minecraft:mirrored_art": true
+		},
+		"events": {}
+	}
+}
