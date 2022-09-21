@@ -1,0 +1,32 @@
+{
+  "name": "azalea",
+  "version": "1.0.0",
+  "azaleaVersion": "V0.3b1",
+  "main": "src/index.js",
+  "beapiModule": true,
+  "include": [
+    "scripts",
+    "manifest.json",
+    "animation_controllers",
+    "entities",
+    "pack_icon.png",
+    "items",
+    "blocks",
+    "structures",
+    "functions"
+  ],
+  "scripts": {
+    "build": "node copyDevJson.js && beapi build",
+    "bundle": "node generateManifestJson.js && beapi bundle && node generateBuildFile.js && node copyDevJson.js"
+  },
+  "dependencies": {
+    "@mcbeutils/claimapi": "^1.0.0",
+    "@types/mojang-net": "^0.1.0",
+    "beapi-core": "^2.4.0",
+    "discord.js": "^14.3.0",
+    "dotenv": "^16.0.1",
+    "jszip": "^3.10.1",
+    "simple-json-db": "^2.0.0",
+    "uuid": "^8.3.2"
+  }
+}
