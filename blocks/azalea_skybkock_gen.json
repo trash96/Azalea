@@ -1,0 +1,16 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "azalea:skyblock_gen_marker"
+        },
+        "components": {
+            "minecraft:destroy_time": 10,
+            "minecraft:display_name": "§dAZALEA SKYBLOCK GEN",
+            "minecraft:explosion_resistance": 10,
+            "minecraft:material_instances": {
+                "cobblestone": {}
+            }
+        }
+    }
+}
